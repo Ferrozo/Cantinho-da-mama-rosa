@@ -1,0 +1,152 @@
+/*#1133aa
+#aa2299
+*/
+
+@font-face {
+    font-family: 'amblebold';
+    src: url('amble-bold-webfont.eot');
+    src: url('amble-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('amble-bold-webfont.woff2') format('woff2'),
+         url('amble-bold-webfont.woff') format('woff'),
+         url('amble-bold-webfont.ttf') format('truetype'),
+         url('amble-bold-webfont.svg#amblebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amblelight';
+    src: url('././fonts/amble-light-webfont.eot');
+    src: url('./fonts/amble-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/amble-light-webfont.woff2') format('woff2'),
+         url('./fonts/amble-light-webfont.woff') format('woff'),
+         url('./fonts/amble-light-webfont.ttf') format('truetype'),
+         url('./fonts/amble-light-webfont.svg#amblelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('./fonts/amble-regular-webfont.eot');
+    src: url('./fonts/amble-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/amble-regular-webfont.woff2') format('woff2'),
+         url('./fonts/amble-regular-webfont.woff') format('woff'),
+         url('./fonts/amble-regular-webfont.ttf') format('truetype'),
+         url('./fonts/amble-regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'big_johnregular';
+    src: url('./fonts/big_john-webfont.eot');
+    src: url('./fonts/big_john-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/big_john-webfont.woff2') format('woff2'),
+         url('./fonts/big_john-webfont.woff') format('woff'),
+         url('./fonts/big_john-webfont.ttf') format('truetype'),
+         url('./fonts/big_john-webfont.svg#big_johnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'slim_joeregular';
+    src: url('./fonts/slim_joe-webfont.eot');
+    src: url('./fonts/slim_joe-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/slim_joe-webfont.woff2') format('woff2'),
+         url('./fonts/slim_joe-webfont.woff') format('woff'),
+         url('./fonts/slim_joe-webfont.ttf') format('truetype'),
+         url('./fonts/slim_joe-webfont.svg#slim_joeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* background: linear-gradient(20deg, #1133aa, #aa2299); */
+    background: linear-gradient(20deg, #1132aaf5, #aa2298fa), url('../img/back.png');
+    background-size: cover;
+    background-position: initial;
+    background-repeat: no-repeat;
+    height: 95vh;
+}
+
+nav {
+    height: 8vh;
+}
+
+.nav-padd {
+    padding: 0px 20%;
+}
+
+nav .contact-btn button {
+    width: 12%;
+    color: #fff;
+    background: transparent;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #fff;
+
+}
+
+nav .contact-btn ul li a {
+    color: #fff;
+}
+
+.intro-info {
+    height: 70vh;
+    display: flex;
+    padding: 0px 20%;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.intro-info h2 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.intro-info button {
+    background: #aa2299;
+    outline-color: transparent;
+    border: none;
+    margin: 20px 0px;
+}
+
+.intro-info button .arrow-animation{
+    animation: arrowAnim .1s ease-out infinite;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+
+.sect-about {
+    padding: 40px 20%;
+    height: 100vh;
+}
+
+.card-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-sect {
+    padding: 100px 0px;
+    background: #1133aa;
+    color: #fff;
+}
